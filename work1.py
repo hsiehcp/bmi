@@ -3,7 +3,6 @@ def calculate_bmi(weight_kg, height_m):
     bmi = weight_kg / (height_m ** 2)
     return bmi
 
-def main():
     print("BMI Calculator")
     
     # Input weight in kilograms
@@ -27,7 +26,3 @@ def main():
         print("You are overweight.")
     else:
         print("You are obese.")
-
-if __name__ == "__main__":
-    main()
-
