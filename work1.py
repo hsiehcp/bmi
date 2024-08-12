@@ -1,8 +1,3 @@
-def calculate_bmi(weight_kg, height_m):
-    # Calculate BMI
-    bmi = weight_kg / (height_m ** 2)
-    return bmi
-
     print("BMI Calculator")
     
     # Input weight in kilograms
@@ -12,7 +7,7 @@ def calculate_bmi(weight_kg, height_m):
     height_m = float(input("Enter your height in meters: "))
     
     # Calculate BMI
-    bmi = calculate_bmi(weight_kg, height_m)
+    bmi = weight_kg / (height_m)**2
     
     # Print BMI
     print(f"Your BMI is: {bmi:.2f}")
